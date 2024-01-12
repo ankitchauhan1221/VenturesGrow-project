@@ -1,0 +1,12 @@
+.social-icons {
+  align-items: center;
+  border: 2px solid #000;
+  color: #fff;
+  display: inline-block;
+  display: flex;
+  font-size: 20px;
+  height: 45px;
+  justify-content: center;
+  transition: all .5s linear 0s;
+  width: 45px;
+}
