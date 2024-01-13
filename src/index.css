@@ -45,7 +45,7 @@
 	text-transform: uppercase;
 	display: inline-block;
 }
-h2::after {
+.Cu::after {
 	content: "";
 	width: 50%;
 	position: absolute;
@@ -455,6 +455,14 @@ i.fab.fa-instagram:hover {
     color: white;
     border: none;
 }
+
+
+/* bootom-footer css  */
+
+.privacy span {
+    color: #444;
+    font-weight: 600;
+}
  
   /* Breadcrumbs css */
   
@@ -489,7 +497,11 @@ i.fab.fa-instagram:hover {
     background-image: url(/src/images/contectbanner.jpeg);
 }
 
-.contact-page, .services-page, .portfolio-page {
+.career-page{
+    background-image: url(/src/images/careerbanner.jpeg);
+}
+
+.contact-page, .services-page, .portfolio-page, .career-page {
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -761,6 +773,23 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* career page css */
+
+.icon-missions i {
+    font-size: 25px;
+    color: #044577;
+}
+
+.mission-card .main-card .ours {
+    color: #000;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
 /* @media Quarys */
 
 @media only screen and (max-width: 600px) {
@@ -795,6 +824,20 @@ p {
 
   }
 
+
+/* Custom styles for SweetAlert2 */
+
+.swal2-popup {
+    color: #333; /* Change text color */
+  }
+  
+.swal2-title {
+    color: #007bff; /* Change title color */
+  }
+  
+.swal2-content {
+    color: #555; /* Change content text color */
+  }
 
 /* for banner section */
 

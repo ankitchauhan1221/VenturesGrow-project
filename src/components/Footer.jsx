@@ -3,6 +3,7 @@ import './Footer.module.css'; // Import your Footer CSS
 import logopng from '../images/Venturesgrow-LOGO3736__1_-removebg-preview.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from 'react-router-dom';
 
 
@@ -35,10 +36,10 @@ const Footer = () => {
         <div class="footer-widget">
           <h5 class="mb-4 text-primary font-secondary">Services</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Search Engine Optimization</a></li>
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Social Media Marketing</a></li>
+            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Website Design & Development</a></li>
+            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Ecommerce Consultancy</a></li>
             <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Digital Marketing</a></li>
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Creative Work</a></li>
+            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Creative Solutions</a></li>
           </ul>
         </div>
       </div>
@@ -50,9 +51,9 @@ const Footer = () => {
             <li class="mb-2 "><a class="text-dark text-decoration-none" href="#">Follow Us</a></li>
           </ul>
           <ul class="list-unstyled list-inline mb-0 social-icons text-decoration-none">
-            <li class="list-inline-item me-3"><a class="text-black facebook text-decoration-none" target="_blank" rel="noreferrer" href="#"><i class="fab fa-facebook-f" style={{ backgroundColor: 'initial', transition: 'background-color 0.3s ease' }}></i></a></li>
-            <li class="list-inline-item me-3"><a class="text-black twitter text-decoration-none" target="_blank" rel="noreferrer" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class="list-inline-item me-3"><a class="text-black instagram text-decoration-none" target="_blank" rel="noreferrer" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item me-3"><a class="text-black facebook text-decoration-none" target="_blank" rel="noreferrer" href="https://www.facebook.com/venturesgrow"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item me-3"><a class="text-black twitter text-decoration-none" target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/venturesgrow/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="list-inline-item me-3"><a class="text-black instagram text-decoration-none" target="_blank" rel="noreferrer" href="https://www.instagram.com/venturesgrow_/"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -62,7 +63,7 @@ const Footer = () => {
       <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
         <ul class="list-unstyled list-inline mb-0">
-          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="#">Privacy Policy</a></li>
+          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/Privacypolicy">Privacy Policy</a></li>
           <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="#">Terms &amp; Conditions</a></li>
         </ul>
       </div>

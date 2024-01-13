@@ -21,7 +21,8 @@ import iconimg2 from '../images/th-removebg-preview.png'
 import iconimg3 from '../images/consulting-icon-3.jpg'
 import iconimg4 from '../images/creative-brain-set-icons_24877-663-removebg-preview.png'
 import alankit from '../images/Alankit.png';
-import jaypee from '../images/Jaypee-1.png'
+import jaypee from '../images/Jaypee-1.png';
+import Tanmay from '../images/Abhirup-300x300.jpeg';
 import AOS from 'aos'; // For Animation
 import 'aos/dist/aos.css'; // Import AOS styles
 
@@ -57,23 +58,23 @@ const MainPage = () => {
             <div class="icon-section mt-4">
               <ul class="list-unstyled list-inline mb-0 ">
                 <li class="list-inline-item me-4">
-                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="#" target="_blank">
+                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="https://www.linkedin.com/company/venturesgrow/" target="_blank">
                     <img src={linkedin} alt="Your Image" style={{ marginRight: '5px', width: '20px', height: '20px', }} /> LINKEDIN</a>
                 </li>
                 <li class="list-inline-item me-4">
-                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="#" target="_blank">
+                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="https://www.instagram.com/venturesgrow_/" target="_blank">
                     <img src={facebook} alt="Your Image" style={{ marginRight: '5px', width: '20px', height: '20px', }} />FACEBOOK</a>
                 </li>
                 <li class="list-inline-item me-4">
-                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="#" target="_blank">
+                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="https://www.facebook.com/venturesgrow" target="_blank">
                     <img src={insta} alt="Your Image" style={{ marginRight: '5px', width: '20px', height: '20px', }} />INSTAGRAM</a>
                 </li>
                 <li class="list-inline-item me-4">
-                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="#" target="_blank">
+                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="https://twitter.com/venturesgrow_" target="_blank">
                     <img src={twitter} alt="Your Image" style={{ marginRight: '5px', width: '20px', height: '20px', }} />TWITTER</a>
                 </li>
                 <li class="list-inline-item me-4">
-                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="#" target="_blank">
+                  <a class="text-black fw-bold d-flex align-items-center text-decoration-none" href="https://youtube.com/venturesgrow" target="_blank">
                     <img src={yt} alt="Your Image" style={{ marginRight: '5px', width: '20px', height: '20px', }} />YOUTUBE</a>
                 </li>
               </ul>
@@ -356,11 +357,11 @@ const MainPage = () => {
 	<div class="row">
 		<div class="col-sm-12">			
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<h2>Customer <b>Testimonials</b></h2>	
+				<h2 class="Cu">Customer <b>Testimonials</b></h2>	
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
+					{/* <li data-target="#myCarousel" data-slide-to="2"></li> */}
 				</ol>   
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -417,14 +418,14 @@ const MainPage = () => {
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
+									<p>Thanks for all the dedicated personal service you have shown us. We appreciate the one-on-one help we have received from you. We will be happy to hear that.</p>
 								</div>
 								<div class="media">
                 <img src={Malini} alt="Your Image" />
 									<div class="media-body">
 										<div class="overview">
-											<div class="name"><b>Michael Holz</b></div>
-											<div class="details">Web Developer / DevCorp</div>											
+											<div class="name"><b>Mrs Malini</b></div>
+											<div class="details">Director  / Swabhiman NGO</div>											
 											<div class="star-rating">
 												<ul class="list-inline">
 													<li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -440,66 +441,15 @@ const MainPage = () => {
 							</div>
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p>Vestibulum quis quam ut magna consequat faucibu. Eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus quam.</p>
+									<p>The Subros Team would like to thank Venturesgrow team and Mr. Ashish Rawat for all the efforts and suggestions that
+assisted us.</p>
 								</div>
 								<div class="media">
-                <img src={Malini} alt="Your Image" />
+                <img src={Tanmay} alt="Your Image" />
 									<div class="media-body">
 										<div class="overview">
-											<div class="name"><b>Mary Saveley</b></div>
-											<div class="details">Graphic Designer / MarsMedia</div>
-											<div class="star-rating">
-												<ul class="list-inline">
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>										
-									</div>
-								</div>
-							</div>
-						</div>			
-					</div>
-					<div class="carousel-item">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="testimonial">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
-								</div>
-								<div class="media">
-                <img src={Malini} alt="Your Image" />
-									<div class="media-body">
-										<div class="overview">
-											<div class="name"><b>Martin Sommer</b></div>
-											<div class="details">SEO Analyst / RealSearch</div>
-											<div class="star-rating">
-												<ul class="list-inline">
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star"></i></li>
-													<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-												</ul>
-											</div>
-										</div>										
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="testimonial">
-									<p>Vestibulum quis quam ut magna consequat faucibu. Eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus quam.</p>
-								</div>
-								<div class="media">
-									<div class="media-left d-flex mr-3">
-                  <img src={Malini} alt="Your Image" />
-									</div>
-									<div class="media-body">
-										<div class="overview">
-											<div class="name"><b>John Williams</b></div>
-											<div class="details">Web Designer / UniqueDesign</div>
+											<div class="name"><b>Tanmay Gupta</b></div>
+											<div class="details">GM - marketing  / Subros</div>
 											<div class="star-rating">
 												<ul class="list-inline">
 													<li class="list-inline-item"><i class="fa fa-star"></i></li>

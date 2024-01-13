@@ -8,6 +8,9 @@ import Portfolio from './pages/Portfolio';
 import Contactus from './pages/Contactus';
 import Footer from './components/Footer';
 import Career from './components/Career';
+import PrivacyPolicy from './components/PrivacyPolicy';
+
+
 function App() {
   return (
     <Router>
@@ -20,6 +23,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/privacyPolicy" element={< PrivacyPolicy />} />
         </Routes>
         <Footer />
       </div>

@@ -105,7 +105,7 @@ const Portfolio = () => {
                                 <span><i class="fa-solid fa-hand-peace fa-xl" style={{ color: '#044577' }}></i></span>
                                 <span><i class="fa-solid fa-thumbs-up fa-xl" style={{ color: '#044577' }}></i></span>
                             </p>
-                            <p>VenturesGrow Media & MARKETING helps businesses to grow more digitally. From launching a new business to digitizing, streamlining, or scaling an existing setup, we believe our customized solutions will help you boost your Brand and increase Revenue. Our team develops unique and creative marketing solutions that capture attention and engage audiences. We work with our clients to develop a customized marketing strategy that balances different approaches to achieve your marketing objectives.</p>
+                            <p>VenturesGrow helps businesses to grow more digitally, From launching a new business to digitizing, streamlining or scaling an existing setup we believe our customized solutions will help you boost your Brand and increase Revenue. Our team of experts is skilled in developing unique and creative marketing solutions that capture attention and engage audiences. At VENTURES GROW, we work with our clients to develop a customized marketing strategy that balances different approaches to achieve your marketing objectives.</p>
                         </div>
                     </div>
                 </div>

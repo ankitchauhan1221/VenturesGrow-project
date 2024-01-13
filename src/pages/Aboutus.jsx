@@ -123,8 +123,7 @@ const AboutUs = () => {
             </div>
             <div class="col-12 aos-init" data-aos="fade-left">
               <p class="mission-para">
-                Our vision reflects what we are striving to achieve - our mission highlights the ways we want to achieve it. These two core elements of our corporate strategy depend on our organization's Passion, Integrity, Commitment, and Reliability.
-              </p>
+              Our vision reflects what we are striving to achieve – our mission highlights the ways we want to achieve it. These two core elements of our corporate strategy depend on our organization’s Passion, Integrity, Commitment, and Reliability.              </p>
             </div>
           </div>
           <div class="row mission-card-section gy-3">
@@ -138,8 +137,7 @@ const AboutUs = () => {
                 </div>
                 <hr />
                 <p>
-                  Our mission is to help businesses to grow more digitally stay ahead of the curve and succeed in an ever-changing digital world. Our core values guide everything we do — Employees, Customer Service, Innovation, Integrity, Fun, and Profitability. The objective is to create profitable businesses which would generate long-term value for all its stakeholders.
-                </p>
+                Our vision reflects what we are striving to achieve – our mission highlights the ways we want to achieve it. These two core elements of our corporate strategy depend on our organization’s Passion, Integrity, Commitment, and Reliability.                </p>
               </div>
             </div>
             <div class="col-md-4 aos-init" data-aos="fade-down">
@@ -152,8 +150,7 @@ const AboutUs = () => {
                 </div>
                 <hr />
                 <p>
-                  DMT MEDIA & MARKETING PRIVATE LIMITED believes that Client satisfaction is of utmost significance. To continue delivering value that exceeds customer expectations and keep delighting them in the digital space. We make sure to learn something new to rectify previous errors to deliver quality work to our customers We are still in touch with our first client long-lasting relationship with our clients is our top most precedence.
-                </p>
+                VenturesGrow believes that Client satisfaction is of utmost significance. To continue delivering value that exceeds customer expectations and keep delighting them in the digital space. We make sure to learn something new to rectify previous errors to deliver quality work to our customers We are still in touch with our first client long-lasting relationship with our clients is our top most precedence.                </p>
               </div>
             </div>
 
@@ -167,8 +164,7 @@ const AboutUs = () => {
                 </div>
                 <hr />
                 <p>
-                  Our vision is to become a leading Technology provider of end-to-end managed IT services to businesses and use the knowledge and expertise acquired over years to incubate businesses in the next generation of Technology & Digital Communication. To become a growth-driven topmost provider of 360-degree solution company every day of the year.
-                </p>
+                Our vision is to become a leading Technology provider of end-to-end managed IT services to businesses and use the knowledge and expertise acquired over years to incubate businesses in the next generation of Technology & Digital Communication. To become a growth-driven topmost provider of 360-degree solution company every day of the year.                </p>
               </div>
             </div>
           </div>
@@ -193,8 +189,8 @@ const AboutUs = () => {
                 </p>
                 <span class="text-dark">  Connect me :  </span>
                 <span>
+                <a class="link" href="https://www.linkedin.com/in/ashishrawatprofile/" target="_blank">
                   <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px' }} ></img>
-                  <a class="" href="#" target="_blank">
                   </a>
                 </span>
               </div>
@@ -231,8 +227,8 @@ const AboutUs = () => {
                   <p class="text-white fw-bold">A senior level executive who has been consistently contributing towards various organizational stints building a highly comprehensive professional experience in Operations &amp; Process Management</p>
                 </span>
                 <span>
+                <a class="" href="https://www.linkedin.com/in/anamika-dhyani-ph-d-26b21430/" target="_blank">
                   <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px', borderRadius: '20%', marginBottom: '10px' }} ></img>
-                  <a class="" href="#" target="_blank">
                   </a></span>
               </div>
             </div>
@@ -253,9 +249,10 @@ const AboutUs = () => {
                 <h4 class="text-white">Dinesh Rana</h4>
                 <p class="text-white rounded" style={{ fontWeight: '900', backgroundColor: '#044577', padding: '10px' }}>VenturesGrow</p>
                 <hr />
+                
                 <p class="text-white fw-bold">A senior level executive who has been consistently contributing towards various organizational stints building a highly comprehensive professional experience in Operations &amp; Process Management</p>
+                <a class="" href="https://www.linkedin.com/in/dinesh-rana-development/" target="_blank">
                 <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px', borderRadius: '20%', marginBottom: '10px' }} ></img>
-                <a class="" href="#" target="_blank">
                 </a>
               </div>
             </div>
