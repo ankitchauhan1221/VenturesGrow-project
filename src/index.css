@@ -1,6 +1,12 @@
 
 /* Navbar css start */
 
+.navbar-nav{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
 .navbar-nav .nav-link:hover {
   border-bottom: 2px solid #044577;
   
@@ -16,6 +22,61 @@
     box-shadow: none;
 }
 
+
+/* cart panel css */
+
+
+.header {
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.heading {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.menu-link{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu-link ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+.menu-link ul li a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu-link ul li .btn{
+    color: white;
+}
+
+
+.address-block{
+    font-size: 15px;
+
+}
+
+.address-block ul li{
+    list-style: none;
+}
+
+.address-block ul li a{
+    text-decoration: none;
+    color: #000;
+}
 
 /* Tablist css start */
 
@@ -499,6 +560,11 @@ i.fab.fa-instagram:hover {
 
 .career-page{
     background-image: url(/src/images/careerbanner.jpeg);
+}
+
+.Tremsconditons-page {
+    background-image: url(/src/images/Termsconditonbanner.jpeg);
+
 }
 
 .contact-page, .services-page, .portfolio-page, .career-page {

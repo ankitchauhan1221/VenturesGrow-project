@@ -44,7 +44,7 @@ const MainPage = () => {
             <div class="block text-center text-lg-start pe-0 pe-xl-5">
               <h1 class="text-capitalize mb-">We Are Digital Media & Marketing Advisors</h1>
               <p class="mb-4">We Specialise In Developing The Best Digital Media Strategy For Your Online Business.</p>
-              <a type="button" class="btn btn-success" href="#">Let's Connect<span class="ms-2 fas fa-arrow-right" style={{ fontSize: '14px' }}></span></a>
+              <a type="button" class="btn btn-success" href="/Contactus">Let's Connect<span class="ms-2 fas fa-arrow-right" style={{ fontSize: '14px' }}></span></a>
             </div>
           </div>
           <div class="col-lg-6 aos-init aos-animate" data-aos="fade-left">

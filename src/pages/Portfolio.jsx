@@ -119,7 +119,7 @@ const Portfolio = () => {
                     <div class="row gy-2 justify-content-around">
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={pro6} alt="Contentstudio" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={pro6} alt="Contentstudio" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Content studio</h5>
@@ -130,7 +130,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={friskers} alt="friskers shop" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={friskers} alt="friskers shop" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Friskers</h5>
@@ -141,7 +141,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={jaypee} alt="jaypee Group" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={jaypee} alt="jaypee Group" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Jaypee Group</h5>
@@ -152,7 +152,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={swabhiman} alt="Swabhiman" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={swabhiman} alt="Swabhiman" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Swabhiman</h5>
@@ -163,7 +163,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={fabrica} alt="Fabrica Furnishing" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={fabrica} alt="Fabrica Furnishing" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Fabrica Furnishing</h5>
@@ -174,7 +174,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={gs} alt="Gathbandhan Sarees" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={gs} alt="Gathbandhan Sarees" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">Gathbandhan Sarees</h5>
@@ -185,7 +185,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={hmbk} alt="H B M K" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={hmbk} alt="H B M K" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">H B M K</h5>
@@ -196,7 +196,7 @@ const Portfolio = () => {
                         </div>
                         <div class="col-md-6 col-lg-3 col-6 port-main aos-init" data-aos="fade-up" data-aos-duration="3000">
                             <div class="p-2 border border-dark text-center position-relative">
-                                <img src={eye} alt="3rd Eye Foundation" style={{ height: 'auto', width: 'auto' }} />
+                                <img src={eye} alt="3rd Eye Foundation" class="img-fluid" style={{ height: 'auto', width: 'auto' }} />
                                 <div class="portfolio-card">
                                     <div class="content-portfolio">
                                         <h5 class="text-white mb-3 text-wrap">3rd Eye Foundation</h5>

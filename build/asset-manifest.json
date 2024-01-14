@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb311a9d.css",
-    "main.js": "/static/js/main.04963ed4.js",
+    "main.css": "/static/css/main.3fa6a151.css",
+    "main.js": "/static/js/main.7a41276f.js",
     "static/js/787.71033793.chunk.js": "/static/js/787.71033793.chunk.js",
     "static/media/laptop-which-there-is-world-people-drawn.jpg": "/static/media/laptop-which-there-is-world-people-drawn.caf7896340d9711de769.jpg",
     "static/media/logo.jpg": "/static/media/logo.c100bb6cca6bd802dc18.jpg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/imgpsh_fullsize_anim (4).jpeg": "/static/media/imgpsh_fullsize_anim (4).37f55056799f42b51333.jpeg",
     "static/media/careerbanner.jpeg": "/static/media/careerbanner.076c2cbf207979bf963c.jpeg",
+    "static/media/Termsconditonbanner.jpeg": "/static/media/Termsconditonbanner.d3efb6266b871fccf081.jpeg",
     "static/media/Servicebanner.jpg": "/static/media/Servicebanner.e3599335f4cc71142895.jpg",
     "static/media/contectbanner.jpeg": "/static/media/contectbanner.b483620a4510a108913a.jpeg",
     "static/media/About.jpeg": "/static/media/About.8803a39d0a40a0c62606.jpeg",
@@ -46,12 +47,12 @@
     "static/media/hbmk.jpg": "/static/media/hbmk.f29c7909af87263a93d9.f29c7909af87263a93d9.jpg",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
-    "main.fb311a9d.css.map": "/static/css/main.fb311a9d.css.map",
-    "main.04963ed4.js.map": "/static/js/main.04963ed4.js.map",
+    "main.3fa6a151.css.map": "/static/css/main.3fa6a151.css.map",
+    "main.7a41276f.js.map": "/static/js/main.7a41276f.js.map",
     "787.71033793.chunk.js.map": "/static/js/787.71033793.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb311a9d.css",
-    "static/js/main.04963ed4.js"
+    "static/css/main.3fa6a151.css",
+    "static/js/main.7a41276f.js"
   ]
 }

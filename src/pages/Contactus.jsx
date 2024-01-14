@@ -81,7 +81,7 @@ const Contactus = () => {
 
             {/* page-header end */}
 
-            <section class="section">
+            <section class="section" id="targetSection">
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-6">

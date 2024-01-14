@@ -64,7 +64,7 @@ const Footer = () => {
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
         <ul class="list-unstyled list-inline mb-0">
           <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/Privacypolicy">Privacy Policy</a></li>
-          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="#">Terms &amp; Conditions</a></li>
+          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="Terms & Condition">Terms &amp; Conditions</a></li>
         </ul>
       </div>
     </div>
