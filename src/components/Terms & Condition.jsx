@@ -213,11 +213,11 @@ const Termscondition = () => {
                     be made in violation of this provision shall be void and of no effect.<br />
                     c. NOTICE. VenturesGrow may provide Users with notices and communications by email, regular mail, or posts on the VenturesGrow website,<br />
                     www.VenturesGrow.com or by any other reasonable means. Except as otherwise set forth herein, notice to VenturesGrow must be sent by courier or registered post to
-                    the Legal Department, VenturesGrow TECH PVT. LTD., 516, VISHAL CHAMBER, SECTOR – 18, G B NAGAR, NOIDA, U. P. – 201301 (INDIA)<br />
+                    the Legal Department, VenturesGrow , B-36, 2nd Floor  Sector-67, NoidaUttar Pradesh - 201301 NOIDA, U. P. – 201301 (INDIA)<br />
                     d. WAIVER. The failure of VenturesGrow to exercise or enforce any right or provision of these Terms of Use will not constitute a waiver of such right or provision. Any waiver of any provision
                     of these Terms of Use will be effective only if in writing and signed by VenturesGrow.<br />
-                    e. RELATIONSHIP BETWEEN THE PARTIES. The Terms of Use are not intended by the Parties to constitute or create a joint venture, pooling arrangement, partnership, agency or formal business organization of any kind. DMT
-                    MEDIA &amp; MARKETING PRIVATE LIMITED and the User shall be independent contractors with each other for all purposes at all times and neither Party shall act as or hold itself out as an agent or representative of the
+                    e. RELATIONSHIP BETWEEN THE PARTIES. The Terms of Use are not intended by the Parties to constitute or create a joint venture, pooling arrangement, partnership, agency or formal business organization of any kind. venturesgrow
+                     and the User shall be independent contractors with each other for all purposes at all times and neither Party shall act as or hold itself out as an agent or representative of the
                     other Party nor shall create or attempt to create liabilities for the other Party by acting or holding itself out as such.
                 </p>
                 <p>
