@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
+// import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
 import LoadingSpinner from '../components/LoadingSpinner';
 
 
