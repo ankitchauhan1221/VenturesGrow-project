@@ -38,7 +38,7 @@ const Contactus = () => {
         console.log('Form Data:', formData);
 
         try {
-            const response = await fetch('http://localhost:3000/send-email', {
+            const response = await fetch('ns1.md-in-89.bigrockservers.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -140,7 +140,7 @@ const Contactus = () => {
                                                                 <div>
 
                                                                     <ReCAPTCHA
-                                                                        sitekey="6LcjA0gpAAAAAOqDlFM2BS08U0EhcSIb_qU3MQxD"
+                                                                        sitekey="6Lc8PVIpAAAAAJwUbF5kVFeYR8kOZw2_SPsQayvD"
                                                                         onChange={onReCAPTCHAChange}
                                                                     />,
                                                                 </div>

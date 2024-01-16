@@ -12,6 +12,7 @@ import TermsCondition from './components/Terms & Condition';
 import PrivacyPolicy from './components/PrivacyPolicy';
 
 
+
 function App() {
   return (
     <Router>

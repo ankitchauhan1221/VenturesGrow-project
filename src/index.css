@@ -6,7 +6,6 @@
     font-weight: 500;
 }
 
-
 .navbar-nav .nav-link:hover {
   border-bottom: 2px solid #044577;
   
@@ -96,7 +95,7 @@
 
 /* Testimonial css start */
 
-.carousel h2 {
+.carousel  h2 {
   
 	color: #000;
 	font-size: 26px;
@@ -218,6 +217,7 @@
 }
 .carousel-indicators {
 	bottom: -80px;
+    margin-bottom: -1.2rem !important;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 17px;
@@ -888,6 +888,10 @@ p {
     margin-top: 20px;
 }
 
+.carousel-indicators {
+    margin-bottom: 2rem;
+}
+
   }
 
 
@@ -926,4 +930,38 @@ p {
        font-size: 38px;
        text-align: center;
     }
+    
    }
+
+/* preloader css */
+
+   svg {
+    display:block;
+    width:258px;
+    height:258px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  
+  .tree {
+    fill: #044577;
+  }
+  
+  .circle-mask {
+    transform-origin: 50% 90%;
+    animation: scale 5s infinite ease-out;
+  }
+  
+  @keyframes scale {
+    0%, 100% {
+      transform: scale(0.0);
+    }
+    7%, 90% {
+      transform: scale(0.4);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }

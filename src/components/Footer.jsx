@@ -1,15 +1,29 @@
-import React from 'react';
+import React,{ useEffect, useState }  from 'react';
 import './Footer.module.css'; // Import your Footer CSS
 import logopng from '../images/Venturesgrow-LOGO3736__1_-removebg-preview.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
-import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from 'react-router-dom';
+import LoadingSpinner from './LoadingSpinner';
 
 
 
 const Footer = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
+    const fetchData = async () => {
+      await new Promise(resolve => setTimeout(resolve, 2000)); 
+      setLoading(false);
+    };
+  
+    fetchData();
+  }, []);
   return (
+    <div>
+    {loading ?(
+        <LoadingSpinner />
+      ) : (
  <>   
   <footer class="bg-tertiary py-5">
   <div class="container">
@@ -70,7 +84,8 @@ const Footer = () => {
     </div>
   </div>
 </footer></>
-
+      )}
+      </div>
   );
 };
 
