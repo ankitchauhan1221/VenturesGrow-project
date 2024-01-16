@@ -39,7 +39,8 @@ const Termscondition = () => {
                     <section>
                         <div class="container">
                             <div class="row pt-4">
-                                <div class="col-12 privacy">
+                                <h1>ppppppppyeskjdskjdksjdk</h1>
+                                {/* <div class="col-12 privacy">
                                     <p>
                                         <span>VenturesGrow</span>would like you to read these general terms of conditions<span>(“Terms of Use” / “Terms of Service” / “Terms”)</span>carefully, before you use venturesgrow
                                         platform or any of its services<span>(“Services”)</span>. These Terms are legally binding and govern the use of our website, our mobile application, and other properties collectively called as the
@@ -230,7 +231,7 @@ const Termscondition = () => {
                                         <span><u>GRIEVANCE REDRESSAL:</u></span>Any complaint, dispute, grievance can be addressed to VenturesGrow through its Customer Service in accordance with its Grievance Policy.
                                     </p>
                                     <p>Thanking you for using VenturesGrow</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>
