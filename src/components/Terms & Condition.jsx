@@ -33,7 +33,7 @@ const Termscondition = () => {
                 <LoadingSpinner />
             ) : (
                 <>
-                    <section class="page-header Termsconditons-page">
+                    <section class="page-header Tremsconditons-page">
                         <div class="container">
                             <div class="row py-5">
                                 <div class="col-8 mx-auto text-center">

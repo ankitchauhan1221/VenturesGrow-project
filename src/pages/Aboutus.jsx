@@ -224,11 +224,11 @@ const AboutUs = () => {
                 <p class="text-white rounded" style={{ fontWeight: '900', backgroundColor: '#044577', padding: '10px' }}>VenturesGrow</p>
                 <hr />
                 <span>
-                  <p class="text-white fw-bold">A senior level executive who has been consistently contributing towards various organizational stints building a highly comprehensive professional experience in Operations &amp; Process Management</p>
+                  <p class="text-white fw-bold"> Ph.D. in Biomedical Sciences from Delhi University. I have around 15 years of experience in research and teaching with 10 yrs in Brazil. Vice cordinator/ Professor of Hematology and Hemotherapy. I am also a NCDA certified career counselor.</p>
                 </span>
                 <span>
                 <a class="" href="https://www.linkedin.com/in/anamika-dhyani-ph-d-26b21430/" target="_blank">
-                  <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px', borderRadius: '20%', marginBottom: '10px' }} ></img>
+                  <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px', borderRadius: '20%', marginBottom: '60px' }} ></img>
                   </a></span>
               </div>
             </div>
@@ -250,7 +250,7 @@ const AboutUs = () => {
                 <p class="text-white rounded" style={{ fontWeight: '900', backgroundColor: '#044577', padding: '10px' }}>VenturesGrow</p>
                 <hr />
                 
-                <p class="text-white fw-bold">A senior level executive who has been consistently contributing towards various organizational stints building a highly comprehensive professional experience in Operations &amp; Process Management</p>
+                <p class="text-white fw-bold">A development professional passionate about inclusive sustainable development with morethan 23 years of experience working with national & international organisations capacity building & monitoring &amp; evaluation.</p>
                 <a class="" href="https://www.linkedin.com/in/dinesh-rana-development/" target="_blank">
                 <img src={linkedin} alt="linkedinprofile" style={{ width: '20px', height: '20px', borderRadius: '20%', marginBottom: '10px' }} ></img>
                 </a>

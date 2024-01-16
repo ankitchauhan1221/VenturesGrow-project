@@ -32,13 +32,13 @@ const PrivacyPolicy = () => {
             ) : (
 
                 <>
-                    <section class="page-header contact-page">
+                    <section class="page-header PrivacyPolicy-page">
                         <div class="container">
                             <div class="row py-5">
                                 <div class="col-8 mx-auto text-center">
                                     <ul class="breadcrumbs" style={{ transform: 'translateY(130px)' }}>
                                         <li class="list-inline-item"><a href="/" style={{ color: 'rgb(0, 0, 0)' }}>Home</a></li>
-                                        <li class="list-inline-item">Contact Us</li>
+                                        <li class="list-inline-item">PrivacyPolicy</li>
                                     </ul>
                                 </div>
                             </div>

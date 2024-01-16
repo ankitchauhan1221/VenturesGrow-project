@@ -562,6 +562,10 @@ i.fab.fa-instagram:hover {
     background-image: url(/src/images/careerbanner.jpeg);
 }
 
+.PrivacyPolicy-page{
+    background-image: url(/src/images/PrivacyPolicy.jpeg);
+}
+
 .Tremsconditons-page {
     background-image: url(/src/images/Termsconditonbanner.jpeg);
 
