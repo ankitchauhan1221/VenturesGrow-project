@@ -49,7 +49,7 @@ const MainPage = () => {
     fetchData();
   }, []);
 
-  const Mainpage = '../page/Mainpage.jsx' === '/home';
+  // const Mainpage = '../page/Mainpage.jsx' === '/home';
   return (
 
     <div>

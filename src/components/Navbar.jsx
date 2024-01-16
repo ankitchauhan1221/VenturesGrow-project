@@ -44,7 +44,7 @@ const Navbar = () => {
     e.preventDefault();
     e.stopPropagation();
     try {
-      const response = await fetch('http://localhost:3000/send-email', {
+      const response = await fetch('http://venturesgrow.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -248,7 +248,8 @@ const Navbar = () => {
             <li><Link class="" to="/services">Service</Link></li>
             <li>< Link class="" to="/portfolio">Portfolio</Link ></li>
             <li>< Link  class="" to="/contactus">Contact Us</Link></li>
-            <li><a aria-current="page" class="btn  ms-2 ms-lg-3 consult-btn active" href="#" style={{backgroundColor: '#4bb85e', color: 'wh'}} onClick={toggleForm}>Consult Now</a></li>
+            <li><a aria-current="page" class="btn  ms-2 ms-lg-3 consult-btn" style={{backgroundColor: '#4bb85e', color: 'wh'}} onClick={toggleForm}>Consult Now</a></li>
+            
           </ul>
         </div>
         <div class="address-block">

@@ -50,10 +50,10 @@ const Footer = () => {
         <div class="footer-widget">
           <h5 class="mb-4 text-primary font-secondary">Services</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Website Design & Development</a></li>
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Ecommerce Consultancy</a></li>
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Digital Marketing</a></li>
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="services">Creative Solutions</a></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Website Design & Development</Link></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Ecommerce Consultancy</Link></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Digital Marketing</Link></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Creative Solutions</Link></li>
           </ul>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Footer = () => {
         <div class="footer-widget">
           <h5 class="mb-4 text-primary font-secondary">Help</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a class="text-dark text-decoration-none" href="contactus">Contact Us</a></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/contactus">Contact Us</Link></li>
             <li class="mb-2 "><a class="text-dark text-decoration-none" href="#">Follow Us</a></li>
           </ul>
           <ul class="list-unstyled list-inline mb-0 social-icons text-decoration-none">
