@@ -381,7 +381,6 @@ const MainPage = () => {
 </section>
 
  {/* Testimonial Section start */}
-<section class="testimonial-section">
   <div class="container-lg">
 	<div class="row">
 		<div class="col-sm-12">			
@@ -470,8 +469,7 @@ const MainPage = () => {
 							</div>
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p>The Subros Team would like to thank Venturesgrow team and Mr. Ashish Rawat for all the efforts and suggestions that
-assisted us.</p>
+								<p>The Subros Team would like to thank Venturesgrow team and Mr. Ashish Rawat for all the efforts and suggestions that assisted us.</p>
 								</div>
 								<div class="media">
                 <img src={Tanmay} alt="Your Image" />
@@ -505,7 +503,6 @@ assisted us.</p>
 		</div>
 	</div>
 </div>
-</section>
 
 </>
       )}

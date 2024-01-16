@@ -38,7 +38,7 @@ const Contactus = () => {
         console.log('Form Data:', formData);
 
         try {
-            const response = await fetch('ns1.md-in-89.bigrockservers.com', {
+            const response = await fetch('https://api.venturesgrow.com/send-mail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -140,7 +140,7 @@ const Contactus = () => {
                                                                 <div>
 
                                                                     <ReCAPTCHA
-                                                                        sitekey="6Lc8PVIpAAAAAJwUbF5kVFeYR8kOZw2_SPsQayvD"
+                                                                        sitekey="6Lfj9FIpAAAAAPX2YYGfBhJJzQ9Co259m8pEUIgQ"
                                                                         onChange={onReCAPTCHAChange}
                                                                     />,
                                                                 </div>
@@ -166,14 +166,14 @@ const Contactus = () => {
                                                 <h4 class="h5">Still Have Questions?</h4>
                                                 <div class="content">
                                                     Call Us We Will Be Happy To Help<br />
-                                                    <a href="tel:+919818137167">+91 9654234208</a><br />
+                                                    <a href="tel:+919654234208">+91 9654234208</a><br />
                                                     Monday - Saturday<br />
                                                     10:00 AM TO 06:00 PM IST
                                                 </div>
                                             </div>
                                             <div class="block mt-4">
                                                 <h4 class="h5">E-mail Us</h4>
-                                                <div class="content"><a href="mailto:contact@dmtgroup.in">connect@venturesgrow.com</a></div>
+                                                <div class="content"><a href="mailto:connect@venturesgrow.com">connect@venturesgrow.com</a></div>
                                             </div>
                                             <div class="block mt-4">
                                                 <h4 class="h5">Meet Us</h4>

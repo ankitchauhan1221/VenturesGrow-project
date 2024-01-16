@@ -208,7 +208,7 @@ const Navbar = () => {
                 <div className="my-1 rounded text-center">
                   <div className="recaptcha">
                     <ReCAPTCHA
-                      sitekey="6Lc8PVIpAAAAAJwUbF5kVFeYR8kOZw2_SPsQayvD"
+                      sitekey="6Lfj9FIpAAAAAPX2YYGfBhJJzQ9Co259m8pEUIgQ"
                       onChange={onReCAPTCHAChange}
                     />
                   </div>

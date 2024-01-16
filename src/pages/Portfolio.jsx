@@ -47,7 +47,7 @@ const Portfolio = () => {
         console.log('Form Data:', formData);
         
         try {
-            const response = await fetch('http://localhost:3000/send-email', {
+            const response = await fetch('https://api.venturesgrow.com/send-mail', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -304,7 +304,7 @@ const Portfolio = () => {
                                             <div>
 
                                                 <ReCAPTCHA
-                                                    sitekey="6Lc8PVIpAAAAAJwUbF5kVFeYR8kOZw2_SPsQayvD"
+                                                    sitekey="6Lfj9FIpAAAAAPX2YYGfBhJJzQ9Co259m8pEUIgQ"
                                                     onChange={onReCAPTCHAChange}
                                                 />,
                                             </div>

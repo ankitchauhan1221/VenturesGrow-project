@@ -2,20 +2,9 @@ import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
 import LoadingSpinner from '../components/LoadingSpinner';
-import AOS from 'aos'; // For Animation
-
-
-
-
 
 const Termscondition = () => {
     const [loading, setLoading] = useState(true); // Initialize the loading state
-    useEffect(() => {
-        AOS.init({
-            duration: 3000,
-            // Global settings here (optional)
-        });
-    }, []);
 
     useEffect(() => {
         // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
@@ -245,13 +234,6 @@ const Termscondition = () => {
                             </div>
                         </div>
                     </section>
-
-
-
-
-
-
-
 
                 </>
             )}
