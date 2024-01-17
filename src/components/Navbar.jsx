@@ -1,7 +1,7 @@
 import React, { useState ,useEffect} from 'react';
 import logo from '../images/logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import LoadingSpinner from './LoadingSpinner';

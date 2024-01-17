@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import  your fontstyle
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 import Swal from 'sweetalert2';
 import AOS from 'aos'; // For Animation
 
@@ -142,7 +142,7 @@ const Contactus = () => {
                                                                     <ReCAPTCHA
                                                                         sitekey="6Ld6TlMpAAAAANXRaJZSW1lFmGkZqcXjhDsD0UjZ"
                                                                         onChange={onReCAPTCHAChange}
-                                                                    />,
+                                                                    />
                                                                 </div>
                                                                 <textarea
                                                                     id="g-recaptcha-response-4"

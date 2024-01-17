@@ -10,7 +10,7 @@ import hmbk from '../images/hbmk.f29c7909af87263a93d9.jpg';
 import pro6 from '../images/imgpsh_fullsize_anim (7).jpeg'
 import eye from '../images/3rdeye.cc5512996d9177b5cf13.jpg';
 import friskers from '../images/imgpsh_fullsize_anim (8).jpeg';
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 import AOS from 'aos'; // For Animation
 import Swal from 'sweetalert2';
 
@@ -305,7 +305,7 @@ const Portfolio = () => {
                                                 <ReCAPTCHA
                                                     sitekey="6Ld6TlMpAAAAANXRaJZSW1lFmGkZqcXjhDsD0UjZ"
                                                     onChange={onReCAPTCHAChange}
-                                                />,
+                                                />
                                             </div>
                                             <textarea
                                                 id="g-recaptcha-response-4"

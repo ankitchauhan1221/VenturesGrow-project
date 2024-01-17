@@ -398,7 +398,7 @@ const MainPage = () => {
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p tyle={{color:'white'}} > VenturesGrow offers a powerful suit of tools that every marketing team must have.</p>
+									<p style={{color:'white'}} > VenturesGrow offers a powerful suit of tools that every marketing team must have.</p>
 								</div>
 								<div class="media">
                 <img src={alankit} alt="Your Image" />
@@ -421,7 +421,7 @@ const MainPage = () => {
 							</div>
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p tyle={{color:'white'}} >Great service completely enjoyable exciting time made easy with great support, service availability</p>
+									<p style={{color:'white'}} >Great service completely enjoyable exciting time made easy with great support, service availability</p>
 								</div>
 								<div class="media">
                 <img src={jaypee} alt="Your Image" />
@@ -448,7 +448,7 @@ const MainPage = () => {
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="testimonial">
-									<p tyle={{color:'white'}}>Thanks for all the dedicated personal service you have shown us. We appreciate the one-on-one help we have received from you. We will be happy to hear that.</p>
+									<p style={{color:'white'}}>Thanks for all the dedicated personal service you have shown us. We appreciate the one-on-one help we have received from you. We will be happy to hear that.</p>
 								</div>
 								<div class="media">
                 <img src={Malini} alt="Your Image" />
