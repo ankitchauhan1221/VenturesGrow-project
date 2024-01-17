@@ -25,8 +25,8 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-&-condition" element={<TermsCondition />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/termscondition" element={<TermsCondition />} />
         </Routes>
         <Footer />
       </div>

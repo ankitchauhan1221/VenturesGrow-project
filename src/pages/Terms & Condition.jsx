@@ -1,14 +1,24 @@
 import React, { useEffect, useState } from 'react';
-
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const Termscondition = () => {
-//     
+    const [loading, setLoading] = useState(true); // Initialize the loading state
 
-    return 
-    (
+    useEffect(() => {
+        // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
+        const fetchData = async () => {
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            setLoading(false);
+        };
 
-        
-           
+        fetchData();
+    }, []);
+    return (
+
+        <div>
+            {loading ? (
+                <LoadingSpinner />
+            ) : (
                 <>
                     <section class="page-header Tremsconditons-page">
                         <div class="container">
@@ -224,10 +234,10 @@ const Termscondition = () => {
                     </section>
 
                 </>
+            )}
+        </div>
 
     );
-         };
-
-
+};
 
 export default Termscondition
