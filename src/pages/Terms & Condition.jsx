@@ -1,26 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
-import LoadingSpinner from '../components/LoadingSpinner';
+
 
 const Termscondition = () => {
-    const [loading, setLoading] = useState(true); // Initialize the loading state
+//     
 
-    useEffect(() => {
-        // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
-        const fetchData = async () => {
-            await new Promise(resolve => setTimeout(resolve, 2000));
-            setLoading(false);
-        };
+    return 
+    (
 
-        fetchData();
-    }, []);
-    return (
-
-        <div>
-            {loading ? (
-                <LoadingSpinner />
-            ) : (
+        
+           
                 <>
                     <section class="page-header Tremsconditons-page">
                         <div class="container">
@@ -236,10 +224,10 @@ const Termscondition = () => {
                     </section>
 
                 </>
-            )}
-        </div>
 
     );
-};
+         };
+
+
 
 export default Termscondition
