@@ -72,26 +72,15 @@ const Footer = () => {
       </div>
     </div>
     <hr />
-    {/* <div class="row align-items-center mt-5 text-center text-md-start">
+    <div class="row align-items-center mt-5 text-center text-md-start">
       <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
         <ul class="list-unstyled list-inline mb-0">
-          <li class="list-inline-item me-4"><a  class="text-dark text-decoration-none" href="/privacy-policy">Privacy Policy</a></li>
-          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/terms-conditons">Terms & Conditions</a></li>
+          <li class="list-inline-item me-4"><a  class="text-dark text-decoration-none"  target="_blank" rel="noreferrer" href="/privacy-policy">Privacy Policy</a></li>
+          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none"  target="_blank" rel="noreferrer" href="/terms-conditons">Terms & Conditions</a></li>
         </ul>
       </div>
-    </div> */}
-    
-    <div class="copyright-section">
-    <div class="copyright-text col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
-    <div class="links-section col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
-      <ul class="links-list list-unstyled list-inline mb-0">
-        <li class="links-list-item list-inline-item me-4"><a class="link-text" href="/privacy-policy">Privacy Policy</a></li>
-        <li class="links-list-item list-inline-item me-4"><a class="link-text" href="/terms-conditons">Terms & Conditions</a></li>
-      </ul>
     </div>
-  </div>
-
   </div>
 </footer></>
       )}

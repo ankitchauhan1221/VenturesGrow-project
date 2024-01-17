@@ -971,48 +971,4 @@ p {
   }
 
 
-  .copyright-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 5rem;
-    text-align: center;
-    font-family: Arial, sans-serif; /* Optional: Apply font to the entire section */
-  }
-
-  /* Styling for the copyright text */
-  .copyright-text {
-    flex: 1; /* Takes up available space */
-    margin-top: 4rem;
-  }
-
-  /* Styling for the links section */
-  .links-section {
-    flex: 1; /* Takes up available space */
-    text-align: right;
-    margin-top: 4rem;
-  }
-
-  /* Styling for the list of links */
-  .links-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Styling for individual list items */
-  .links-list-item {
-    display: inline-block;
-    margin-right: 4rem;
-  }
-
-  /* Styling for link text */
-  .link-text {
-    color: #000; /* Black color */
-    text-decoration: none;
-  }
-
-  /* Optional: Add hover effect to the links */
-  .link-text:hover {
-    text-decoration: underline;
-  }
+  
