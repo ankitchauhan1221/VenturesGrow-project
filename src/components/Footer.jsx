@@ -1,5 +1,5 @@
 import React,{ useEffect, useState }  from 'react';
-import './Footer.module.css'; // Import your Footer CSS
+// import './Footer.module.css'; // Import your Footer CSS
 import logopng from '../images/Venturesgrow-LOGO3736__1_-removebg-preview.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
@@ -77,8 +77,8 @@ const Footer = () => {
       <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
         <ul class="list-unstyled list-inline mb-0">
-          <li class="list-inline-item me-4"><Link  class="text-dark text-decoration-none" to="/privacy-policy">Privacy Policy</Link></li>
-          <li class="list-inline-item me-4"><Link class="text-dark text-decoration-none" to="/terms-conditons">Terms & Conditions</Link></li>
+          <li class="list-inline-item me-4"><a  class="text-dark text-decoration-none" href="/privacy-policy">Privacy Policy</a></li>
+          <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/terms-conditons">Terms & Conditions</a></li>
         </ul>
       </div>
     </div>

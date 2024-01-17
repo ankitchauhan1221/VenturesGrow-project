@@ -8,7 +8,7 @@ import Portfolio from './pages/Portfolio';
 import Contactus from './pages/Contactus';
 import Footer from './components/Footer';
 import Career from './components/Career';
-import PrivacyPolicy from './pages/Privacypolicy.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx';
 import Termscondition from './pages/Termscondition.jsx';
 
 

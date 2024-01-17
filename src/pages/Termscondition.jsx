@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import LoadingSpinner from '../components/LoadingSpinner';
 
- const Termscondition = () => {
-  return (
+const Termscondition = () => {
+    const [loading, setLoading] = useState(true); // Initialize the loading state
 
-<>
+    useEffect(() => {
+        // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
+        const fetchData = async () => {
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            setLoading(false);
+        };
 
-    <section class="page-header Tremsconditons-page">
+        fetchData();
+    }, []);
+    return (
+
+        <div>
+            {loading ? (
+                <LoadingSpinner />
+            ) : (
+                <>
+                    <section class="page-header Tremsconditons-page">
                         <div class="container">
                             <div class="row py-5">
                                 <div class="col-8 mx-auto text-center">
@@ -58,9 +73,9 @@ import React from 'react'
                                     </p>
                                     <p>
                                         <span><u>1.5 COMMUNICATION POLICY.</u></span><br />
-                                        a. The User hereby accepts that VenturesGrow may send transactional or non-transactional business communication in the form of SMS or Email or Push notifications as part of its efforts to
+                                        a.) The User hereby accepts that VenturesGrow may send transactional or non-transactional business communication in the form of SMS or Email or Push notifications as part of its efforts to
                                         fulfil the User’s request or service your account. A User may continue to receive all such communication from VenturesGrow even after opting out of marketing communications.<br />
-                                        b.VenturesGrow will make the best efforts to provide notifications and it shall be deemed that the User shall have received the information sent from the Company during the course of, or in
+                                        b.) VenturesGrow will make the best efforts to provide notifications and it shall be deemed that the User shall have received the information sent from the Company during the course of, or in
                                         relation to, using the VenturesGrow Platform or availing any Services. VenturesGrow shall not be under any obligation to confirm the authenticity of the person(s)
                                         receiving the alert. The User cannot hold the Company liable for non-availability of any notification service in any manner whatsoever.
                                     </p>
@@ -218,8 +233,11 @@ import React from 'react'
                         </div>
                     </section>
 
-                    </>
-  );
+                </>
+            )}
+        </div>
+
+    );
 };
 
-export default Termscondition;
+export default Termscondition

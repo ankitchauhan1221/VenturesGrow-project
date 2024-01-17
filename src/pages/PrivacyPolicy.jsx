@@ -1,9 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import LoadingSpinner from '../components/LoadingSpinner';
+import AOS from 'aos'; // For Animation
 
-const Privacypolicy = () => {
-  return (
-    <>
-       <section class="page-header PrivacyPolicy-page">
+const PrivacyPolicy = () => {
+    const [loading, setLoading] = useState(true); // Initialize the loading state
+    useEffect(() => {
+        AOS.init({
+            duration: 3000,
+            // Global settings here (optional)
+        });
+    }, []);
+
+    useEffect(() => {
+        // Simulate an asynchronous operation (e.g., fetching data) with setTimeout
+        const fetchData = async () => {
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            setLoading(false);
+        };
+
+        fetchData();
+    }, []);
+    return (
+
+        <div>
+            {loading ? (
+                <LoadingSpinner />
+            ) : (
+
+                <>
+                    <section class="page-header PrivacyPolicy-page">
                         <div class="container">
                             <div class="row py-5">
                                 <div class="col-8 mx-auto text-center">
@@ -127,8 +152,18 @@ const Privacypolicy = () => {
                             </div>
                         </div>
                     </section>
-    </>
-  );
+
+
+
+
+
+
+                </>
+
+            )}
+        </div>
+
+    );
 };
 
-export default Privacypolicy;
+export default PrivacyPolicy
