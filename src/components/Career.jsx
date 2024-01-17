@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import career from '../images/careerbanner.jpeg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Swal from 'sweetalert2';

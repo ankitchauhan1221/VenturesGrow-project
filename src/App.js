@@ -8,8 +8,8 @@ import Portfolio from './pages/Portfolio';
 import Contactus from './pages/Contactus';
 import Footer from './components/Footer';
 import Career from './components/Career';
-import TermsCondition from './pages/Terms & Condition';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import PrivacyPolicy from './pages/Privacypolicy.jsx';
+import Termscondition from './pages/Termscondition.jsx';
 
 
 
@@ -25,8 +25,8 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
-          <Route path="/termscondition" element={<TermsCondition />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-conditons" element={<Termscondition />} />
         </Routes>
         <Footer />
       </div>
