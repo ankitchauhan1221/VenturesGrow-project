@@ -1,5 +1,4 @@
 import React,{ useEffect, useState }  from 'react';
-// import './Footer.module.css'; // Import your Footer CSS
 import logopng from '../images/Venturesgrow-LOGO3736__1_-removebg-preview.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
@@ -54,10 +53,6 @@ const Footer = () => {
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Ecommerce Consultancy</Link></li>
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Digital Marketing</Link></li>
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Creative Solutions</Link></li>
-            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/privacy-policy">Privacy Policy</Link></li>
-            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/terms-conditons">Terms & Conditions</Link></li>
-
-
           </ul>
         </div>
       </div>
@@ -76,14 +71,14 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <hr />
+    {/* <hr > */}
     <div class="row align-items-center mt-5 text-center text-md-start">
       <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
-        {/* <ul class="list-unstyled list-inline mb-0">
+        <ul class="list-unstyled list-inline mb-0">
           <li class="list-inline-item me-4"><a  class="text-dark text-decoration-none" href="/privacy-policy">Privacy Policy</a></li>
           <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/terms-conditons">Terms & Conditions</a></li>
-        </ul> */}
+        </ul>
       </div>
     </div>
   </div>
