@@ -54,6 +54,10 @@ const Footer = () => {
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Ecommerce Consultancy</Link></li>
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Digital Marketing</Link></li>
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/services">Creative Solutions</Link></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/privacy-policy">Privacy Policy</Link></li>
+            <li class="mb-2"><Link class="text-dark text-decoration-none" to="/terms-conditons">Terms & Conditions</Link></li>
+
+
           </ul>
         </div>
       </div>

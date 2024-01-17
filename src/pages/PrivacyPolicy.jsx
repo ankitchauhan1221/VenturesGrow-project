@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import LoadingSpinner from '../components/LoadingSpinner';
 import AOS from 'aos'; // For Animation
+import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
     const [loading, setLoading] = useState(true); // Initialize the loading state
