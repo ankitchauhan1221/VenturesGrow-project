@@ -303,7 +303,7 @@ const Portfolio = () => {
                                             <div>
 
                                                 <ReCAPTCHA
-                                                    sitekey="6Ld6TlMpAAAAANXRaJZSW1lFmGkZqcXjhDsD0UjZ"
+                                                    sitekey="6Lf2pFMpAAAAAF9HktqzZdlz0mk9g1WQcFSscH-4"
                                                     onChange={onReCAPTCHAChange}
                                                 />
                                             </div>

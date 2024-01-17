@@ -1,7 +1,7 @@
 import React, { useState ,useEffect} from 'react';
 import logo from '../images/logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReCAPTCHA from 'react-google-recaptcha';
+import ReCAPTCHA from "react-google-recaptcha";
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import LoadingSpinner from './LoadingSpinner';
@@ -208,7 +208,7 @@ const Navbar = () => {
                 <div className="my-1 rounded text-center">
                   <div className="recaptcha">
                     <ReCAPTCHA
-                      sitekey="6Ld6TlMpAAAAANXRaJZSW1lFmGkZqcXjhDsD0UjZ"
+                      sitekey="6Lf2pFMpAAAAAF9HktqzZdlz0mk9g1WQcFSscH-4"
                       onChange={onReCAPTCHAChange}
                     />
                   </div>
