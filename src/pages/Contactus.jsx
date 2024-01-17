@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css'; // Import your Bootstrap css
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';     // Import your bootstrap buldle(funcations)
 import '@fortawesome/fontawesome-free/css/all.min.css'; // Import  your fontstyle
-import ReCAPTCHA from 'react-google-recaptcha';
+import ReCAPTCHA from "react-google-recaptcha";
 import Swal from 'sweetalert2';
 import AOS from 'aos'; // For Animation
 
@@ -133,8 +133,8 @@ const Contactus = () => {
                                                     onChange={handleInputChange}>
                                                     </textarea>
                                                 </div>
-                                                <div class="mb-3 text-center">
-                                                    <div class="recaptcha">
+                                                <div className="mb-3 text-center">
+                                                    <div className="recaptcha">
                                                         <div>
                                                             <div style={{ width: '304px', height: '78px' }}>
                                                                 <div>
@@ -155,7 +155,7 @@ const Contactus = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <button type="submit" class="btn-primary w-100" onClick={(e) => handleSubmit(e)}>Send Message</button>
+                                                <button type="submit" className="btn-primary w-100" onClick={(e) => handleSubmit(e)}>Send Message</button>
                                             </form>
                                         </div>
 
