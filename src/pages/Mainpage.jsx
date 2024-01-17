@@ -471,7 +471,7 @@ const MainPage = () => {
 							</div>
 							<div class="col-sm-6">
 								<div class="testimonial">
-								<p>The Subros Team would like to thank Venturesgrow team and Mr. Ashish Rawat for all the efforts and suggestions that assisted us.</p>
+								<p style={{color:'white'}}>The Subros Team would like to thank Venturesgrow team and Mr. Ashish Rawat for all the efforts and suggestions that assisted us.</p>
 								</div>
 								<div class="media">
                 <img src={Tanmay} alt="Your Image" />

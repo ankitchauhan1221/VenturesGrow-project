@@ -8,8 +8,8 @@ import Portfolio from './pages/Portfolio';
 import Contactus from './pages/Contactus';
 import Footer from './components/Footer';
 import Career from './components/Career';
-import TermsCondition from './components/Terms & Condition';
-import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsCondition from './pages/Terms & Condition';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 
