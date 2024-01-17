@@ -44,7 +44,7 @@ const Navbar = () => {
     e.preventDefault();
     e.stopPropagation();
     try {
-      const response = await fetch('http://venturesgrow.com/', {
+      const response = await fetch('https://api.venturesgrow.com/send-mail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -197,10 +197,10 @@ const Navbar = () => {
                       onChange={handleInputChange}
                     >
                       <option>Select Services</option>
-                      <option>Social Media Marketing</option>
+                      <option>Website Design & Development</option>
                       <option>Digital Marketing</option>
-                      <option>SEO</option>
-                      <option>Creative Work</option>
+                      <option>Ecommerce Services</option>
+                      <option>Creative Solutions</option>
                     </select>
                   </div>
                 </div>
@@ -208,7 +208,7 @@ const Navbar = () => {
                 <div className="my-1 rounded text-center">
                   <div className="recaptcha">
                     <ReCAPTCHA
-                      sitekey="6Lfj9FIpAAAAAPX2YYGfBhJJzQ9Co259m8pEUIgQ"
+                      sitekey="6Ld6TlMpAAAAANXRaJZSW1lFmGkZqcXjhDsD0UjZ"
                       onChange={onReCAPTCHAChange}
                     />
                   </div>

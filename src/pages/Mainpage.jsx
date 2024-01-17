@@ -381,7 +381,9 @@ const MainPage = () => {
 </section>
 
  {/* Testimonial Section start */}
-  <div class="container-lg">
+
+
+<div class="container-lg">
 	<div class="row">
 		<div class="col-sm-12">			
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -503,6 +505,11 @@ const MainPage = () => {
 		</div>
 	</div>
 </div>
+
+
+
+
+
 
 </>
       )}
