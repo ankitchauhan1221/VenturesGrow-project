@@ -61,7 +61,7 @@ const Footer = () => {
           <h5 class="mb-4 text-primary font-secondary">Help</h5>
           <ul class="list-unstyled">
             <li class="mb-2"><Link class="text-dark text-decoration-none" to="/contactus">Contact Us</Link></li>
-            <li class="mb-2 "><a class="text-dark text-decoration-none" href="#">Follow Us</a></li>
+            <li class="mb-2 "><a class="text-dark text-decoration-none">Follow Us</a></li>
           </ul>
           <ul class="list-unstyled list-inline mb-0 social-icons text-decoration-none">
             <li class="list-inline-item me-3"><a class="text-black facebook text-decoration-none" target="_blank" rel="noreferrer" href="https://www.facebook.com/venturesgrow"><i class="fab fa-facebook-f"></i></a></li>
@@ -71,8 +71,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    {/* <hr > */}
-    <div class="row align-items-center mt-5 text-center text-md-start">
+    <hr />
+    {/* <div class="row align-items-center mt-5 text-center text-md-start">
       <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
       <div class="col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
         <ul class="list-unstyled list-inline mb-0">
@@ -80,7 +80,18 @@ const Footer = () => {
           <li class="list-inline-item me-4"><a class="text-dark text-decoration-none" href="/terms-conditons">Terms & Conditions</a></li>
         </ul>
       </div>
+    </div> */}
+    
+    <div class="copyright-section">
+    <div class="copyright-text col-lg-7 col-md-6 mt-4 mt-lg-0">© 2024 VenturesGrow Pvt Ltd. All Rights Reserved.</div>
+    <div class="links-section col-lg-5 col-md-6 text-md-end mt-4 mt-md-0">
+      <ul class="links-list list-unstyled list-inline mb-0">
+        <li class="links-list-item list-inline-item me-4"><a class="link-text" href="/privacy-policy">Privacy Policy</a></li>
+        <li class="links-list-item list-inline-item me-4"><a class="link-text" href="/terms-conditons">Terms & Conditions</a></li>
+      </ul>
     </div>
+  </div>
+
   </div>
 </footer></>
       )}
